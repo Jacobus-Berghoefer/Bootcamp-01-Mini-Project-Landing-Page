@@ -1,44 +1,69 @@
 /* Stylesheet for Jacobus Landing Page */
-
+/* The wildcard selector adds styling to all elements */
 *{
-
+    font-family:'Times New Roman', Times, serif;
 }
 
-div#container{
-    /*display: inline-block;
-    justify-content: space-between;
-    align-items: center;*/
-
-    
+/*This div container captures the header and the nav bar*/
+div.container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: antiquewhite;
+    background-color: #1b75be;
+    font-size: 18px;
 }
 
 header{
-    line-height: 45px;
-    min-height: 100px;
-    background-color: #1b75be;
-    color: antiquewhite;
-    
+        
 }
 
-header #welcome{
+/* This is for "Welcome to My Landing Page */
+h1 {
     font-size: 18px;
-    font-family:'Times New Roman', Times, serif;
-    color: antiquewhite;
+    position: absolute;
+    left: 25px;
 }
 
+/* These two make my nav bar align to the right, and 50pixels from the top. 
+My Listed items are inline so they are all next to each other instead of on top of each other.
+The margin right, keeps space from the edge of the page, as well as from the other items. */
 header ul{
     text-align: right;
-    color: antiquewhite;
-    font-family:'Times New Roman', Times, serif;
-    height: 50px;
+    line-height: 50px;
 }
 
 header ul li{
+    display: inline;
+    margin-right: 25px;  
+}
+
+/*landpage-image*/
+
+figure {
+    position: absolute;
+    top: 100px;
+    left: 30%;
+}
+
+img {
     
-    display: inline-block;
-    list-style-type: none;
-    font-size: 18px;
-    
+}
+
+figcaption {
+    position: relative;
+    top: 25px;
+    right: 10%;
+}
+
+section {
+    position: absolute;
+    top: 500px;
+    left: 30%;
+}
+
+h2 {
+
 }
 
 footer{
