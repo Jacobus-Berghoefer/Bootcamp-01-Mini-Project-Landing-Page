@@ -1,0 +1,38 @@
+/* Stylesheet for Jacobus Landing Page */
+
+*{
+
+}
+
+header{
+    /*padding: 20px;*/
+    min-height: 100px;
+    background-color: #1b75be;
+    color: antiquewhite;
+    
+}
+
+header #welcome{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+header ul{
+    text-align: right;
+    color: antiquewhite;
+    font-family:'Times New Roman', Times, serif;
+    height: 50px;
+}
+
+header ul li{
+    
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+    
+}
+
+footer{
+
+}
