@@ -4,8 +4,16 @@
 
 }
 
+div#container{
+    /*display: inline-block;
+    justify-content: space-between;
+    align-items: center;*/
+
+    
+}
+
 header{
-    /*padding: 20px;*/
+    line-height: 45px;
     min-height: 100px;
     background-color: #1b75be;
     color: antiquewhite;
